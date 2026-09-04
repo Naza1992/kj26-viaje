@@ -1,7 +1,7 @@
 // Service worker de la PWA del itinerario.
 // Estrategia: cache-first para el shell (funciona sin senial),
 // con actualizacion en segundo plano cuando hay conexion.
-const CACHE = 'kj26-d41d973b';
+const CACHE = 'kj26-a4db073b';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
